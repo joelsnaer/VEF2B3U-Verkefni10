@@ -1,0 +1,27 @@
+#map {
+  height: 85%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.slider{
+  width: 75%;
+  margin-left: 10%;
+
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+	border: 1px solid #c5c5c5;
+	background: #E59E00;
+	font-weight: normal;
+	color: #454545;
+}

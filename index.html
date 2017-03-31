@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bensínstöðvar - Verkefni 10</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slider.css">
+    <!--JQUERY Google CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--JQUERY Microsoft CDN-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <!--JQUERY UI Slider-->
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
+
+  </head>
+  <body>
+    <div id="map"></div>
+    <!--JQUERY UI Slider-->
+    <div class="slider">
+      <p>
+        <label for="amount">Verð á bensín</label>
+        <input type="text" id="amount" readonly style="border:0; color:blue;">
+      </p>
+    <div id="slider-range"></div>
+</div>
+    <!--Javascript-->
+    <script type="text/javascript" src="javascript.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwwICM9O7ubug6shINvHw3HyxcnBzvNcI&callback=initMap">
+    </script>
+  </body>
+</html>
