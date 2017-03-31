@@ -11,3 +11,6 @@ Gögnin sem ég nota á verkefninu fékk ég frá http://apis.is/petrol. Gögnin
 
 ## SLIDER
 Ég fékk slider frá JQUERY UI. Þegar þú slide-ar upp og niður getur þú látt birta markera á bensín stöðum sem kosta eitthvað sérstakt.
+
+## JQUERY UI TOUCH
+Er kóði sem ég fann sem lætur jquery ui-ið virka á mobile símum þegar þú ýtir á það
